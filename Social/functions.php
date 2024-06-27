@@ -1,8 +1,8 @@
 <?php
-$dbhost = 'localhost';
+$dbhost = 'mysql';
 $dbname = 'social';
 $dbuser = 'root';
-$dbpass = "";
+$dbpass = "password";
 $appname = "Social Network";
 // Create connection
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
